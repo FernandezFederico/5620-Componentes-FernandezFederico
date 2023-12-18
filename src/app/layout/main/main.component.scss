@@ -1,4 +1,4 @@
-.main{
+.main {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -6,11 +6,21 @@
     align-items: center;
     gap: 1rem;
 
-    .card__body{
-        min-height: 290px;
+    .card__main {
+        .card__img{
 
-        .card-text {
-            min-height: 150px;
+            height: 500px;
         }
+        .card__body{
+            min-height: 290px;
+    
+            .card-text {
+                min-height: 150px;
+            }
+        }
+
     }
+
+
+
 }
