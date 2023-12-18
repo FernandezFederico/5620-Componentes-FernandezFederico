@@ -1,6 +1,14 @@
-.header{
-    width: 100%;
-    min-height: 80px;
+.header {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: black;
-    color: white;
+    .header__nav  {
+        margin-left: 40px;
+        width: 100%;
+        min-height: 80px;
+        background-color: black;
+    }
+
 }

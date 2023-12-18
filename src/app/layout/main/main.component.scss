@@ -1,8 +1,16 @@
 .main{
-    background-color: yellow;
     width: 100%;
     min-height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 1rem;
+
+    .card__body{
+        min-height: 290px;
+
+        .card-text {
+            min-height: 150px;
+        }
+    }
 }

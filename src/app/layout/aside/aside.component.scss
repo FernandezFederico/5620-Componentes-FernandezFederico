@@ -1,10 +1,19 @@
 .aside{
-    background-color: yellowgreen;
+    
     width: 100%;
     min-width: 80px;
     min-height: 100%;
+    .aside__nav {
+        padding:2rem;
+        width: 100%;
+        min-width: 80px;
+        height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a:hover {
+        background-color: rgb(59, 59, 59);
+    }
 }
